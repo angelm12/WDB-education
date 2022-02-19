@@ -1,0 +1,155 @@
+/* Ignore following classes */
+
+* {
+    font-family: "Montserrat", sans-serif;
+    background-color: #eeeeee;
+  }
+  
+  #intro {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .insideborder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .para {
+    font-weight: 300;
+    margin-left: 10px;
+  }
+  
+  h2 {
+    font-size: medium;
+    font-weight: 200;
+  }
+  
+  /* Classes that you might find useful */
+  /* Note* These classes do not cover every possible case to build your flags, you will have to continue to add your own*/
+  
+  .flag {
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    margin-bottom: 5rem;
+    position:relative
+  }
+
+  .flag.outer{
+    height: 300px;
+    width: 500px;
+    border-style: solid;
+    margin-bottom: 5rem;
+    z-index: 1;
+  }
+  
+  .horiz {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .twovert {
+    height: 50%;
+  }
+  
+  .threevert {
+    height: 33.3333%;
+  }
+
+  .sixvert{
+    height: 16.6666%
+  }
+
+  .ninevert{
+      height: 11.1111%
+  }
+  
+  .threehoriz {
+    width: 33.3333%;
+  }
+  
+  .skinny {
+    height: 17.5%;
+  }
+  
+  .fat {
+    height: 30%;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 85px;
+    top: 50px;
+  }
+
+  .mexlogo{
+    height:300px;
+    width:280px;
+    background-color:white;
+    background:url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Coat_of_arms_of_Mexico.svg/245px-Coat_of_arms_of_Mexico.svg.png") center no-repeat white;
+    background-size:80%;
+  }
+  
+  .box{
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 55.5555%;
+      width: 33.3333%;
+  }
+
+  .stripe1{
+    position: absolute;
+    top: 0;
+    left: 14%;
+    height: 55.555%;
+    width: 6%;
+      
+  }
+
+  .stripe2{
+    position: absolute;
+    top: 23%;
+    left: 0;
+    height: 10%;
+    width: 33.3333%;
+  }
+  /* Colors/ Feel free to add your own! */
+  
+  .red {
+    background-color: red;
+  }
+  
+  .orange {
+    background-color: orange;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .lightblue {
+    background-color: lightblue;
+  }
+  
+  .purple {
+    background-color: purple;
+  }
+  
+  .white {
+    background-color: #fff;
+  }
