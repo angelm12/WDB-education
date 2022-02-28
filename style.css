@@ -1,0 +1,154 @@
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: .5%;
+    background-color: #bbbbbb;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+    background-color: #bbbbbb;
+}
+
+.nav-button:hover {
+    color: #ffffff;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.logo-mini{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    left: 1%;
+    top: -1%;
+
+}
+.bio-photo {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    padding: 2%;
+}
+
+.headline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.introCoverage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    align-items: center;
+    padding: 5%;
+    position: relative;
+}
+
+
+.about-me {
+    display: flex;
+    width: 50%;
+    position: relative;
+    align-items: center;
+    padding: 1%;
+    justify-content: center;
+    background-color: #bbbbbb;
+    flex-direction: column;
+    vertical-align: middle;
+    left: 20%;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.space {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    background-color: #bbbbbb;
+    padding: 1%;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    position: relatiave;
+    align-items: center;
+    padding-left: 30%;
+    justify-content: center;
+
+}
+
+.proj-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+
+.proj-col {
+    display: flex;
+    flex-direction: column;
+    background-color: #bbbbbb;
+    margin: 2% 2% 2% 2%;
+    width: 50%;
+    color: white;
+    border-radius: 1%;
+    box-shadow: 6px 6px 2px 2px rgb(0, 0, 0);  
+}
+
+.proj-name {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    width: 100%;
+    color: #f5fbfd;
+}
+
+.proj-text{
+    font-weight: 200;
+    font-weight: bold;
+    padding: 2%;
+    color:#000000
+}
+
+.contact-overview{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    background-color: #ffffff;
+    padding: 1%;
+    font-size: large;
+    font-weight: bold;
+}
